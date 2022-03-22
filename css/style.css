@@ -8663,7 +8663,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 17px;
 }
 
 ::-webkit-scrollbar-track {
@@ -8675,9 +8675,12 @@ body {
 ::-webkit-scrollbar-thumb {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
-  background-image: linear-gradient(180deg, #708ad4 0%, #00b152 99%);
-  animation: gradient 10s ease infinite;
-  transition: 0.4s;
+  border-radius: 100px;
+  border: 4px solid rgba(0,0,0,0.2);
+  background: #8070D4;
+  /*background-image: linear-gradient(180deg, #708ad4 0%, #00b152 99%);*/
+  /*animation: gradient 10s ease infinite;*/
+  /*transition: 0.4s;*/
   box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
 }
 
