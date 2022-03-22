@@ -2,7 +2,7 @@
   <br>
   <a href="https://koped.angellabs.xyz"><img src="https://koped.angellabs.xyz/images/banner.png"></a>
   <br>
-  Angel Labs ⚗️
+  KOPED - Discord bot
   <br>
 </h1>
 
