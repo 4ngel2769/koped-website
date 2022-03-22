@@ -8633,6 +8633,48 @@ body {
   background-color: #dbdbdb
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #dbdbdb;
+  border-radius: 100px;
+  /*border-radius: 100px;*/
+}
+
+::-webkit-scrollbar-thumb {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 50px;
+  background-image: linear-gradient(180deg, #708ad4 0%, #00b152 99%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+
+.ft-fast-growing-dsc{
+  color: black;
+}
+
+/*
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}*/
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
@@ -8660,6 +8702,34 @@ abbr[data-original-title] {
   cursor: help;
   border-bottom: 0;
   text-decoration-skip-ink: none;
+}
+
+.center {
+  padding: 70px 0;
+  border: 70px solid #35353500;
+  text-align: left;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+p {
+  color: rgb(233, 233, 233);
+}
+
+ul {
+  color: rgb(255, 255, 255);
+}
+
+.node {
+  padding: 70px 0;
+  border: 3px solid #004d9b;
+  text-align: left;
 }
 
 address {
@@ -18644,7 +18714,7 @@ html {
 }
 
 .main-banner .banner-title {
-  width: 56%;
+  width: 100%;
 }
 
 @media (max-width: 991px) {
