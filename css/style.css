@@ -30,6 +30,11 @@
 /* === Import template variables === */
 /*-------------------------------------------------------------------*/
 /* === SCSS Compass Functions === */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @-moz-keyframes flash {
   0% {
     opacity: 1;
@@ -8603,6 +8608,18 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --normal-shadow: 0px 100px 80px rgba(0, 0, 0, 0.13),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0934511),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0774939),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.065),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0525061),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0365489);
+  --text-shadow: 0px 100px 145px rgba(0, 0, 0, 0.25),
+    0px 41.7776px 60.5775px rgba(0, 0, 0, 0.179714),
+    0px 22.3363px 32.3876px rgba(0, 0, 0, 0.149027),
+    0px 12.5216px 18.1562px rgba(0, 0, 0, 0.125),
+    0px 6.6501px 9.64265px rgba(0, 0, 0, 0.100973),
+    0px 2.76726px 4.01252px rgba(0, 0, 0, 0.0702864);
 }
 
 *,
@@ -8645,8 +8662,10 @@ body {
 
 ::-webkit-scrollbar-thumb {
   border-top-left-radius: 0px;
-  border-bottom-left-radius: 50px;
+  border-bottom-left-radius: 0px;
   background-image: linear-gradient(180deg, #708ad4 0%, #00b152 99%);
+  animation: gradient 10s ease infinite;
+  transition: 0.4s;
   box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
 }
 
@@ -19083,4 +19102,16 @@ section {
 
 .flipster-custom-nav .flipster-custom-nav-item .flipster-custom-nav-link.active {
   background: #f1efef;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
