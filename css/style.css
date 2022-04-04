@@ -10967,8 +10967,8 @@ fieldset:disabled a.btn {
 .btn-success {
   color: #fff;
   background-color: #4bffb7;
-  background-image: linear-gradient(#4bff4b,black);
-  border-color: #005126;
+  background-image: linear-gradient(-45deg, #4bff4b,rgb(95, 196, 172));
+  border-color: #2b4094;
   border-width: 3px;
 }
 
