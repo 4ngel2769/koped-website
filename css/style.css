@@ -18533,9 +18533,10 @@ h6, .h6 {
   width: 100%;
   /*padding: 1.875rem 1rem;*/
   padding: 0.1rem 1rem;
+  box-shadow: var(--normal-shadow);
   border-bottom-right-radius: 80px 65px;
   border-bottom-left-radius: 80px 65px;
-  background: #3d37f157;
+  background: rgba(59, 55, 342, 0.68);
   backdrop-filter: blur(6px);
 }
 
