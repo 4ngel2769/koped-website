@@ -8739,9 +8739,15 @@ abbr[data-original-title] {
 }
 
 .center {
-  padding: 70px 0;
-  border: 70px solid #35353500;
   text-align: left;
+}
+
+.tos-center {
+  padding: 10px 50px;
+  border: 10px solid transparent;
+  background-color:rgba(100, 100, 100, 0.3);
+  border-radius: 40px;
+  box-shadow: var(--normal-shadow);
 }
 
 h1 {
