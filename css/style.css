@@ -8685,7 +8685,7 @@ body {
 }
 
 .ft-fast-growing-dsc{
-  color: black;
+  color: rgb(225, 225, 225);
 }
 
 /*
@@ -14809,7 +14809,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #3c37f1 !important;
+  background-color: white !important; /* #3c37f1 */
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
