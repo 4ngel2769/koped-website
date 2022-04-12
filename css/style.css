@@ -18779,7 +18779,6 @@ section {
 .services-box {
   padding: 10px 100px 40px 0;
   border-radius: 25px;
-  border: 4px white solid;
 }
 
 @media (max-width: 991px) {
