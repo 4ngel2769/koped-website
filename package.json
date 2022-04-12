@@ -1,6 +1,6 @@
 {
-  "name": "Marshmello_landing",
-  "version": "1.0.1",
+  "name": "Koped Website",
+  "version": "1.0",
   "description": "",
   "main": "index.html",
   "dependencies": {
@@ -31,8 +31,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "bootstrapdash",
-  "url": "https://www.bootstrapdash.com/",
-  "copyright": "",
-  "license": ""
+  "original-work": "bootstrapdash",
+  "url": "https://www.bootstrapdash.com/"
 }
