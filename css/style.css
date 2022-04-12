@@ -18533,7 +18533,8 @@ h6, .h6 {
   width: 100%;
   /*padding: 1.875rem 1rem;*/
   padding: 0.1rem 1rem;
-  background: #31358f;
+  background: #3d37f157;
+  backdrop-filter: blur(6px);
 }
 
 @media (max-width: 991px) {
