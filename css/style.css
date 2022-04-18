@@ -8675,7 +8675,7 @@ body {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   border-radius: 100px;
-  border: 4px solid rgba(0,0,0,0.2);
+  border: 0.2rem solid rgba(0,0,0,0.2);
   background: #8070D4;
   /*background-image: linear-gradient(180deg, #708ad4 0%, #00b152 99%);*/
   /*animation: gradient 10s ease infinite;*/
