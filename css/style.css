@@ -8672,6 +8672,13 @@ body {
   border-bottom-left-radius: 80px 65px;
   background: rgba(59, 55, 342, 0.68);
   backdrop-filter: blur(6px);
+  transition: transform 0.2s;
+}
+
+.nav--hidden {
+  transform: translateY(-100%);
+  box-shadow: none;
+  transition: transform 0.2;
 }
 
 ::-webkit-scrollbar {
