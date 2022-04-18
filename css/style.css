@@ -8793,9 +8793,18 @@ ul {
   background-color: #0e1013e1;
   padding: 20px;
   display: fixed;
-  border-color: #ffffff;
   border-radius: 8px;
   border: 0.2rem solid rgb(48, 79, 253);
+  margin-bottom: 1.2rem;
+}
+.commandlistbox.funbox{
+  border: 0.2rem solid rgb(79, 255, 76);
+}
+.commandlistbox.musicbox{
+  border: 0.2rem solid rgb(76, 243, 255);
+}
+.commandlistbox.modbox{
+  border: 0.2rem solid rgb(255, 76, 76);
 }
 
 
