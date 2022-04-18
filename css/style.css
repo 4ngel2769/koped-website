@@ -8785,6 +8785,30 @@ ul {
   color: rgb(255, 255, 255);
 }
 
+
+
+
+
+.commandlistbox{
+  background-color: #0e1013e1;
+  padding: 20px;
+  display: fixed;
+  border-color: #ffffff;
+  border-radius: 8px;
+  border: 0.2rem solid rgb(48, 79, 253);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .node {
   padding: 70px 0;
   border: 3px solid #004d9b;
