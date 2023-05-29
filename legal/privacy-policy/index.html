@@ -276,3 +276,232 @@
 </body>
 
 </html>
+
+<box>
+    <div class="logo-div">
+        <div class="slogan-div">
+            <img id="footer-logo" src="../helix.png" draggable="false" alt="Helix logo" width="50">
+            <span class="slogan name">Helix -</span>
+            <span class="slogan gradient-tag">Discord Bot</span>
+        </div>
+    </div>
+    <footer-center>
+        <social-icons>
+        </social-icons>
+        <footer-0-div>
+            <links-div1 class="linkdiv">
+                <p class="links-title">Navigation</p>
+                <a class="footer-link" href="/about">About</a>
+                <a class="footer-link" href="/features">Features</a>
+                <a class="footer-link" href="/dashboard">Dashboard</a>
+                <a class="footer-link" href="/invite">Invite</a>
+                <a class="footer-link" href="/support">Support Server</a>
+            </links-div1>
+            <links-div2 class="linkdiv">
+                <p class="links-title">Social</p>
+                <a class="footer-link" href="/twitter">Twitter</a>
+                <a class="footer-link" href="/instagram">Instagram</a>
+                <a class="footer-link" href="/discord">Discord</a>
+            </links-div2>
+            <links-div3 class="linkdiv">
+                <p class="links-title">Legal</p>
+                <a class="footer-link" href="/tos">Terms of Service</a>
+                <a class="footer-link" href="/privacy">Privacy Policy</a>
+                <a class="footer-link" href="/license">License</a>
+            </links-div3>
+        </footer-0-div>
+        <div>
+            <div>
+                
+            </div>
+        </div>
+    </footer-center>
+    
+    <div class="branding-dash"></div>
+
+    <div class="footer-credit">
+        <span class="credit">© 2018 - 2023 <a class="credit-link" href="https://angellabs.xyz">Angel C.</a> • We are not affiliated with Discord Inc.</span>
+    </div>
+    <script src="https://kit.fontawesome.com/54dbbb3106.js" crossorigin="anonymous"></script>
+</box>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap');
+    
+    box {
+	backdrop-filter: blur(15px);
+        /*background-color: #1f2d3144;*/ /* For debugging */ /*#0B0E11;*/ 
+        width: 100%;
+    }
+    a {
+        color: white;
+    }
+    .links-title {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 17.6px;
+        color: #e0e0e0;
+    }
+    .footer-link {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 16px;
+        transition: color 0.2s;
+        padding: 0.13em;
+        color: #737b81;
+    }
+    .footer-link:hover {
+        /*background: -webkit-linear-gradient(177deg, #25baff, #c5ddff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: underline;
+        background-size: 400% 400%;
+        -webkit-animation: GradientLink 2s ease infinite;
+        -moz-animation: GradientLink 2s ease infinite;
+        -o-animation: GradientLink 2s ease infinite;
+        animation: GradientLink 2s ease infinite;*/
+        color: #dddddd;
+    }
+    .linkdiv {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    footer-center {
+        /*background-color: #86d68028;*/ /* For debugging */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    footer-0-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        gap: 3em;
+        flex-wrap: wrap;
+        align-content: center;
+        /*background-color: #59924883;*/ /* For debugging */
+    }
+    .logo-div {
+        /*background-color: #d950f544;*/ /* For debugging */
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #footer-logo {
+        float: left;
+    }
+    .slogan{
+        font-family: 'Varela Round', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        user-select: none;
+    }
+    .name {
+        color: #e0e0e0;
+    }
+    .gradient-tag {
+        font-family: 'Varela Round', sans-serif;
+        background: -webkit-linear-gradient(45deg, #4bd5ff, #197dff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .slogan-div {
+        /*background-color: #94e8ff44;*/ /* For debugging */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        text-align: center;
+        column-gap: 10px;
+    }
+    .branding-dash {
+        -webkit-animation: gradient 5s ease infinite reverse;
+        -moz-animation: gradient 5s ease infinite reverse;
+        -o-animation: gradient 5s ease infinite reverse;
+        animation: gradient 5s ease infinite reverse;
+        background-size: 300%;
+        background-image: linear-gradient(90deg, #0044ff, #3f92ff);
+        width: 50%;
+        transform: translate(50%);
+        height: 4px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        border-radius: 50px;
+    }
+    .footer-credit {
+        /*background-color: #cb7cf063;*/ /* For debugging */
+        text-align: center !important;
+        padding: 10px 0px 30px 0px;
+        max-width: 100%;
+        align-items: center;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        display: gird;
+    }
+    .credit {
+        font-family: 'Varela Round', sans-serif;
+        color: rgb(170, 170, 170);
+    }
+    .credit-link {
+        color: rgb(170, 170, 170);
+    }
+    .credit-link:hover {
+        background: -webkit-linear-gradient(45deg, #ff5596, #529dff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 800;
+    }
+    .credit-al {
+        color: rgb(170, 170, 170);
+    }
+    .credit-al:hover {
+        background: -webkit-linear-gradient(45deg, #21ffc7, #008fee);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 800;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+        
+    @-webkit-keyframes GradientLink {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
+    @-moz-keyframes GradientLink {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
+    @-o-keyframes GradientLink {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
+    @keyframes GradientLink {
+        0%{background-position:50% 0%}
+        50%{background-position:51% 100%}
+        100%{background-position:50% 0%}
+    }
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+</style>
