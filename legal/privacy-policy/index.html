@@ -212,6 +212,7 @@
                         href="help.diszoid@gmail.com">help.diszoid@gmail.com</a></p>
                 </div>
             </div>
+            <dex class="dex"></dex>
         </section>
     </div>
     <script src="/vendors/base/vendor.bundle.base.js"></script>
@@ -223,7 +224,6 @@
 </body>
 
 </html>
-
 <box>
     <div class="logo-div">
         <div class="slogan-div">
@@ -280,7 +280,19 @@
     @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap');
     
-    box {
+    .dex, dex, #dex{
+		padding: 1rem;
+		width: 100%;
+		margin: 0 auto;
+		box-sizing: border-box;
+		background-image: url("../../assets/wave-bg.svg");
+		background-position: bottom !important;
+		background-size: 100% !important;
+		background-repeat: no-repeat !important;
+		z-index: 100;
+    }
+
+    .box {
 	backdrop-filter: blur(15px);
         /*background-color: #1f2d3144;*/ /* For debugging */ /*#0B0E11;*/ 
         width: 100%;
