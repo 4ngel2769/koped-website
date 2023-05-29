@@ -8684,7 +8684,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -8698,7 +8698,7 @@ body {
   border-bottom-left-radius: 0px;
   border-radius: 100px;
   border: 0.2rem solid rgba(0,0,0,0.2);
-  background: #09080e;
+  background: #11141b;
   /*background-image: linear-gradient(180deg, #708ad4 0%, #00b152 99%);*/
   /*animation: gradient 10s ease infinite;*/
   /*transition: 0.4s;*/
