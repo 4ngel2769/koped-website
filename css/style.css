@@ -8668,10 +8668,12 @@ body {
   align-items: center;
   align-self: center;
   box-shadow: var(--normal-shadow);
-  border-bottom-right-radius: 80px 65px;
-  border-bottom-left-radius: 80px 65px;
-  background: rgba(59, 55, 342, 0.68);
-  backdrop-filter: blur(6px);
+  /*border-bottom-right-radius: 80px 65px;*/
+  /*border-bottom-left-radius: 80px 65px;*/
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  /*background: rgba(59, 55, 342, 0.68);*/
+  backdrop-filter: blur(10px);
   transition: transform 0.2s;
 }
 
