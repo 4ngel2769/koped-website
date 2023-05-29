@@ -43,4 +43,4 @@
 
 
 ## KOPED bot's website
-#### This is the source code of the KOPED Discord bot's website: **[koped.angellabs.xyz]([https://diszoid.studio](https://koped.angellabs.xyz))**.
+#### This is the source code of the KOPED Discord bot's website: **[koped.angellabs.xyz](https://koped.angellabs.xyz)**.
