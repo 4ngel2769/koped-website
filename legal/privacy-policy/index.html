@@ -192,7 +192,7 @@
                     will promptly investigate your complaint and respond to you, in writing, setting out the outcome of
                     our investigation and the steps we will take to deal with your complaint. You also have the right to
                     contact a regulatory body or data protection authority in relation to your complaint. </p>
-                <br><wavy class="wavy"></wavy>
+                <br>
                 <h2>Limits of Our Policy</h2>
                 <p>Our website may link to external sites that are not operated by us. Please be aware that we have no
                     control over the content and policies of those sites, and cannot accept responsibility or liability
@@ -223,7 +223,9 @@
 </body>
 
 </html>
-<box>
+
+<div class="wave"></div>
+<div class="box">
     <div class="logo-div">
         <div class="slogan-div">
             <!--<img id="footer-logo" src="../helix.png" draggable="false" alt="Helix logo" width="50">-->
@@ -268,7 +270,7 @@
         <span class="credit">© 2018 - 2023 <a class="credit-link" href="https://angellabs.xyz">Angel C.</a> • We are not affiliated with Discord Inc.</span>
     </div>
     <script src="https://kit.fontawesome.com/54dbbb3106.js" crossorigin="anonymous"></script>
-</box>
+</div>
 
 <style>
     .body {
@@ -279,11 +281,11 @@
     @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap');
     
-    .wavy, #wavy{
-        width: 100%;
-		margin-bottom: 50px;
-        background-color: white;
-		background-image: url("../../assets/wave-bg2.svg");
+    .wave {
+        width: 1600px;
+        height: 200px;
+		margin-bottom: 0px;
+		background-image: url("../../assets/wave-bg.svg");
 		background-position: bottom !important;
 		background-size: 100% !important;
 		background-repeat: no-repeat !important;
@@ -291,9 +293,9 @@
     }
 
     .box {
-	backdrop-filter: blur(15px);
         /*background-color: #1f2d3144;*/ /* For debugging */ /*#0B0E11;*/ 
         width: 100%;
+        background-color: #101417;
     }
     a {
         color: white;
@@ -343,13 +345,14 @@
         align-content: center;
         /*background-color: #59924883;*/ /* For debugging */
     }
-    .logo-div {
-        /*background-color: #d950f544;*/ /* For debugging */
+    /*.logo-div {
+        background-color: #d950f544;*/ /* For debugging 
         display:flex;
         align-items: center;
         justify-content: center;
         margin-top: 30px;
-    }
+        position: absolute;
+    }*/
     #footer-logo {
         float: left;
     }
@@ -358,6 +361,7 @@
         font-weight: 600;
         font-size: 40px;
         user-select: none;
+        padding-bottom: 20px;
     }
     .name {
         color: #e0e0e0;
